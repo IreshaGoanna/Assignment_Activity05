@@ -3,12 +3,12 @@
 **Report Version:** 1.0.1  
 **Report Date:** 3rd of August 2022
 
-## Difficulties or Challenges During Development
+## 1. Difficulties or Challenges During Development
 Difficulties and challenges associated with Git, the distributed version control system (DVCS) used during the development of the MusoPlan application, were minimal overall. However, the challenges that did emerge included:  
 * Practising commit consistency, such as only working on one major function at once, and remembering to commit once an acceptable draft was built.  
 * Monitoring branch check-in – that is, ensuring that the correct branch was selected when adding, changing, and committing files and their respective changes.
 
-## How You Complied with the Organisational Requirements
+## 2. How You Complied with the Organisational Requirements
 Throughout the development of MusoPlan, I attempted to comply with the organisational requirements in the following ways:  
 * All implementation file commits were conducted on the implementation branch. Branch check-in was confirmed by utilising the “git status” command to view which branch I was working on.  
 * Commit messages:  
