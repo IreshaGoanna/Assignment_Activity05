@@ -1,0 +1,53 @@
+### Activity 5- Document your use and management of VCS in a VCS use report (400-600 words).
+
+
+# I have selected Github for musoPlan Project as the version control management system as github meets all the criteria mentioned in the requirement documents by Globex corporation.
+As per the project I created a Github repository in the webaccount and worked in the localstorage, copied the repository link and cloned from github into my local storage.
+Following are the steps I worked on:
+1. cloned the repository link from website.
+2. opened the local folder and gitbash and ignore the unused files.
+3. using git clone I copied github repository link<URL>.
+4. entered the meeting minutes and VCS report. 
+5. created two branches using git command under main as "git branch filename" and "git checkout filename".
+6. added design report md file in one branch as "git filename.md".
+7. started coding in second branch using javascript.
+8. added and committed the changes for each file using "git add ." and "git commit -m"".
+9. updated files and push origin.
+10. used "git status" to check whether all files are    successfully deployed or left with any untracked files.
+11. check the entire branch contents and codes performed using  git log.
+12. merged the branches into main using "git checkout main" and "git merge main".
+
+# Difficulties or challenges during development:
+1. Errors: main with commits. so checked with git status and log.
+2. The function sometimes required me to go back and change other functions in order to comply with the code.There was a multitasking involved before the commits.
+3. Couldnot find the file path or files.
+
+# How you complied with the organisational requirements
+1. MusoPlan must be done with good online suuporting system and using distributed VCS.
+2. all commit messages must follow standard format and I applied the same.
+3. once the changes were complete, I submitted a pull request on github to request merging all changes into repository.
+4. all repositories must start with a README.md file and no source code, so do not initiliaze with code already present.
+5. commit scope should apply at every stage for file update.
+
+# How you verified the VCS was performing as expected, behaviours you should test and
+describe include
+- branches:
+1. for every development I had to branch out from main branch.
+2. I merged from main to verify the changes done.
+-stages:
+1. by staging I made the small changes to commit everytime with appropriate commit message.
+-commits:
+1. commit is a unique state of repository so needed to use in every stage to check the changes.
+-merges:
+1. I used merge when a branch was complete and merged into main.
+-push/pull to share commits with remotes:
+1. I used this to sync my repository with my github repo.
+-pull requests:
+1. once all the changes are made I pushed my repo onlie, sbmitted a pull request to share changes.
+-commit log:
+1. commit log helped when switching branches and to see the current stage of branch or getting back to the current branch
+
+# If your repository was forked from another repository, how would you go about having them integrate your changes to the central repository?
+Integrating my changes into central repository is by ensuring my local changes are based on latest version of central repositroy and uploaded to my github repo. This is done by "Push" command. Then in my github I click on "Pull Request" to create pull request for another repository. By this i can send or leave a comment/ message to other repository for any feedback before accepted/merged. 
+
+
